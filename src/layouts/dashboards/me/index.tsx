@@ -6,7 +6,6 @@ import Footer from "examples/Footer";
 import { DataGrid, GridRowsProp, GridColDef } from '@mui/x-data-grid';
 import React, { useState, useEffect } from 'react'
 
-const [tableData, setTableData] = useState([])
 
 const rows: GridRowsProp = [
   { id: 1, col1: 'Hello', col2: 'World' },
